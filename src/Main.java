@@ -1,10 +1,8 @@
-import com.cuong.demo.console.MorseCodeConverter;
+import com.cuong.demo.console.*;
 
 public class Main {
     public static void main(String[] args) {
-        MorseCodeConverter morseCodeConverter = new MorseCodeConverter();
-        morseCodeConverter.encode("nguyenchicuong");
-        System.out.println();
-        morseCodeConverter.decode("-. --. ..- -.-- . -. -.-. .... .. -.-. ..- --- -. --.");
+        BauCua bauCua = new BauCua();
+        bauCua.run();
     }
 }

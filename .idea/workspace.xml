@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="925a0fff-71e4-4b44-8c6e-390eb720c325" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/MorseCodeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/BauCua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/PhuongTrinhBacHai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/PhuongTrinhBacNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/TaiXiu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -56,6 +59,8 @@
       <workItem from="1669101064776" duration="716000" />
       <workItem from="1669106908852" duration="2486000" />
       <workItem from="1669121641981" duration="573000" />
+      <workItem from="1669122224066" duration="2202000" />
+      <workItem from="1669124457826" duration="2022000" />
     </task>
     <servers />
   </component>
