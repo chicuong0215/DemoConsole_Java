@@ -1,5 +1,7 @@
 package com.cuong.demo.console;
 
+import java.util.Scanner;
+
 public class Triangle implements Shape {
     private boolean isTriangle = false;
     private float a, b, c;
@@ -46,6 +48,24 @@ public class Triangle implements Shape {
     @Override
     public float getCircuit() {
         return a + b + c;
+    }
+
+    @Override
+    public void run() {
+        Scanner sc = new Scanner(System.in);
+        do {
+            System.out.println("Nhập độ dài 3 cạnh của tam giác");
+            System.out.print("a = ");
+            float a = sc.nextFloat();
+            System.out.print("b = ");
+            float b = sc.nextFloat();
+            System.out.print("c = ");
+            float c = sc.nextFloat();
+
+            new Triangle(a, b, c).showInfo();
+
+            System.out.println("Bạn có muốn tiếp tục? (y/n): ");
+        } while (!sc.next().toLowerCase().equals("n"));
     }
 
 }

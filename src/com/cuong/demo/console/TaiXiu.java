@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class TaiXiu {
     public TaiXiu() {
-
     }
 
     public void run() {

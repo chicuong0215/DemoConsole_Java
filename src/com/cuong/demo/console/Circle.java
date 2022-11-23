@@ -1,11 +1,12 @@
 package com.cuong.demo.console;
 
+import java.util.Scanner;
+
 public class Circle implements Shape {
     protected String name = "Hình tròn";
     private float r;
 
     public Circle() {
-
     }
 
     public Circle(float r) {
@@ -35,5 +36,18 @@ public class Circle implements Shape {
     @Override
     public float getCircuit() {
         return (float) (2 * Math.PI * r);
+    }
+
+    @Override
+    public void run() {
+        Scanner sc = new Scanner(System.in);
+        do {
+            System.out.print("Nhập bán kính hình tròn: ");
+            float r = sc.nextFloat();
+
+            new Circle(r).showInfo();
+
+            System.out.println("Bạn có muốn tiếp tục? (y/n): ");
+        } while (!sc.next().toLowerCase().equals("n"));
     }
 }

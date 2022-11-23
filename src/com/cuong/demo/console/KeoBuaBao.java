@@ -21,26 +21,28 @@ public class KeoBuaBao {
             System.out.println("Bạn chọn: " + userSelection);
             System.out.println("Máy chọn: " + machineSelection);
 
-            if (userSelection.equals("keo")) {
-                switch (machineSelection) {
-                    case "keo" -> System.out.println("Hòa nhau!");
-                    case "bua" -> System.out.println("Bạn thua!");
-                    case "bao" -> System.out.println("Bạn thắng!");
-                }
-            }
-            if (userSelection.equals("bua")) {
-                switch (machineSelection) {
-                    case "bua" -> System.out.println("Hòa nhau!");
-                    case "bao" -> System.out.println("Bạn thua!");
-                    case "keo" -> System.out.println("Bạn thắng!");
-                }
-            }
-            if (userSelection.equals("bao")) {
-                switch (machineSelection) {
-                    case "bao" -> System.out.println("Hòa nhau!");
-                    case "keo" -> System.out.println("Bạn thua!");
-                    case "bua" -> System.out.println("Bạn thắng!");
-                }
+            switch (userSelection) {
+                case "keo":
+                    switch (machineSelection) {
+                        case "keo" -> System.out.println("Hòa nhau!");
+                        case "bua" -> System.out.println("Bạn thua!");
+                        case "bao" -> System.out.println("Bạn thắng!");
+                    }
+                    break;
+                case "bua":
+                    switch (machineSelection) {
+                        case "bua" -> System.out.println("Hòa nhau!");
+                        case "bao" -> System.out.println("Bạn thua!");
+                        case "keo" -> System.out.println("Bạn thắng!");
+                    }
+                    break;
+                case "bao":
+                    switch (machineSelection) {
+                        case "bao" -> System.out.println("Hòa nhau!");
+                        case "keo" -> System.out.println("Bạn thua!");
+                        case "bua" -> System.out.println("Bạn thắng!");
+                    }
+                    break;
             }
 
             System.out.println("Bạn có muốn tiếp tục? (y/n): ");

@@ -1,5 +1,7 @@
 package com.cuong.demo.console;
 
+import java.util.Scanner;
+
 public class Rectangle implements Shape {
     protected String name = "Hình chữ nhật";
     private float width;
@@ -43,5 +45,21 @@ public class Rectangle implements Shape {
     @Override
     public float getCircuit() {
         return 2 * (width + length);
+    }
+
+    @Override
+    public void run() {
+        Scanner sc = new Scanner(System.in);
+        do {
+            System.out.println("Nhập chiều dài và chiều rộng hình chữ nhật");
+            System.out.print("Chiều dài: ");
+            float length = sc.nextFloat();
+            System.out.print("Chiều rộng: ");
+            float width = sc.nextFloat();
+
+            new Rectangle(width, length).showInfo();
+
+            System.out.println("Bạn có muốn tiếp tục? (y/n): ");
+        } while (!sc.next().toLowerCase().equals("n"));
     }
 }

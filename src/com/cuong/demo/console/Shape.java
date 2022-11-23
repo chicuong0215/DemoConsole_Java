@@ -8,4 +8,6 @@ public interface Shape {
     float getArea();
 
     float getCircuit();
+
+    void run();
 }
