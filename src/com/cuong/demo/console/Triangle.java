@@ -1,14 +1,14 @@
 package com.cuong.demo.console;
 
-public class Triangle {
+public class Triangle implements Shape {
     private boolean isTriangle = false;
-    private int a, b, c;
+    private float a, b, c;
 
     public Triangle() {
 
     }
 
-    public Triangle(int a, int b, int c) {
+    public Triangle(float a, float b, float c) {
 
         if (a + b > c && a + c > b && b + c > a) {
             isTriangle = true;
@@ -18,6 +18,7 @@ public class Triangle {
         }
     }
 
+    @Override
     public void showInfo() {
         if (isTriangle) {
             System.out.println("Hình tam giác");
@@ -31,12 +32,19 @@ public class Triangle {
         }
     }
 
+    @Override
+    public void draw() {
+
+    }
+
+    @Override
     public float getArea() {
         float p = getCircuit() / (float) 2;
         return (float) Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
 
-    public int getCircuit() {
+    @Override
+    public float getCircuit() {
         return a + b + c;
     }
 

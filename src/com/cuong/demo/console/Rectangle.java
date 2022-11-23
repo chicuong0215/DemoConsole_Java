@@ -1,18 +1,19 @@
 package com.cuong.demo.console;
 
-public class Rectangle {
+public class Rectangle implements Shape {
     protected String name = "Hình chữ nhật";
-    private int width;
-    private int length;
+    private float width;
+    private float length;
 
     public Rectangle() {
     }
 
-    public Rectangle(int width, int length) {
+    public Rectangle(float width, float length) {
         this.width = width;
         this.length = length;
     }
 
+    @Override
     public void showInfo() {
         System.out.println(name);
         System.out.println("\tChiều rộng: " + width);
@@ -24,6 +25,7 @@ public class Rectangle {
 
     }
 
+    @Override
     public void draw() {
         for (int i = 0; i < width; i++) {
             for (int j = 0; j < length; j++) {
@@ -33,11 +35,13 @@ public class Rectangle {
         }
     }
 
-    public int getArea() {
+    @Override
+    public float getArea() {
         return width * length;
     }
 
-    public int getCircuit() {
+    @Override
+    public float getCircuit() {
         return 2 * (width + length);
     }
 }

@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="925a0fff-71e4-4b44-8c6e-390eb720c325" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/BauCua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/PhuongTrinhBacHai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/PhuongTrinhBacNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/TaiXiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cuong/demo/console/KeoBuaBao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/KeoBuaBao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cuong/demo/console/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cuong/demo/console/TaiXiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/TaiXiu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cuong/demo/console/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cuong/demo/console/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,7 +63,9 @@
       <workItem from="1669106908852" duration="2486000" />
       <workItem from="1669121641981" duration="573000" />
       <workItem from="1669122224066" duration="2202000" />
-      <workItem from="1669124457826" duration="2022000" />
+      <workItem from="1669124457826" duration="2817000" />
+      <workItem from="1669127725970" duration="1072000" />
+      <workItem from="1669179823052" duration="2169000" />
     </task>
     <servers />
   </component>

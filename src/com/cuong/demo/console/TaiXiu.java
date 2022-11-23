@@ -22,18 +22,14 @@ public class TaiXiu {
             //xỉu
             if (result >= 4 && result <= 10) {
                 System.out.println("Kết quả: xỉu");
-                if (userSelection.equals("xiu"))
-                    System.out.println("Bạn thắng!");
-                else
-                    System.out.println("Bạn thua!");
+                if (userSelection.equals("xiu")) System.out.println("Bạn thắng!");
+                else System.out.println("Bạn thua!");
             }
             //tài
-            if (result >= 11 && result <= 17) {
+            else if (result >= 11 && result <= 17) {
                 System.out.println("Kết quả: tài");
-                if (userSelection.equals("tai"))
-                    System.out.println("Bạn thắng!");
-                else
-                    System.out.println("Bạn thua!");
+                if (userSelection.equals("tai")) System.out.println("Bạn thắng!");
+                else System.out.println("Bạn thua!");
             }
             System.out.println("Bạn có muốn tiếp tục? (y/n): ");
         } while (!sc.next().toLowerCase().equals("n"));
